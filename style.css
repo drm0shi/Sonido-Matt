@@ -83,15 +83,15 @@ span:hover{
         0 0 25px aquamarine;
         transition-duration: 1s;
 }
-.men2{
+.men2
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.sm{
-
+.smatt{
     color: rgb(175, 175, 175);
-    font-size: 50px;
+    font-size:50px;
     font-family: "Chakra Petch", sans-serif;
     text-shadow: 0 0 15px gray,
     0 0 15px gray,
@@ -100,23 +100,18 @@ span:hover{
     0 0 15px gray;
 }
 .smat{
-    border-right: 20px solid white;
-    white-space: nowrap;
-    width: 0;
     overflow: hidden;
-    animation: type 1.5s steps(20,end) forwards,blink 1s infinite;
+    animation: type 1.5s steps(20,end) forwards,infinite ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @keyframes type{
     from{
         width: 0;
     }
     to{
-        width: 25%;
+        width: 58%;
     }
 }
-@keyframes blink{
-    from{border-color: transparent;}
-    to{
-        border-color: white;
-    }
-}
+
